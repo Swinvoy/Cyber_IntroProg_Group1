@@ -1,10 +1,7 @@
 Start - PinCheck
-Create Variable "CorrectPin"
-	Set "CorrectPin" to '1234'
-Create Variable "EnteredPin"
-	Set "EnteredPin" to 'XXXX'
-Create Variable "PinCount"
-	Set "Pin Count" to '0'
+Create Variable "CorrectPin" set to '1234'
+Create Variable "EnteredPin" set to 'XXXX'
+Create Variable "PinCount" set to "Pin Count" to'0'
 
 Display "Enter Pin"
 
