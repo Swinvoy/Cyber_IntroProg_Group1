@@ -1,0 +1,21 @@
+Start - PinCheck
+Create Variable "CorrectPin"
+	Set "CorrectPin" to '1234'
+Create Variable "EnteredPin"
+	Set "EnteredPin" to 'XXXX'
+Create Variable "PinCount"
+	Set "Pin Count" to '0'
+
+Display "Enter Pin"
+
+- Wait for input -
+	adjust "EnteredPin" to user input
+
+if "EnteredPin" & "CorrectPin" don't match
+	adjust "PinCount": +1
+	check if "PinCount" =< 3
+		if false go back to - Wait for input -
+		if true display "CARD DESTROYED", go back to start
+if "EnteredPin" & "CorrectPin" match
+	display "Pin Correct"
+	display "Balance = $0"
