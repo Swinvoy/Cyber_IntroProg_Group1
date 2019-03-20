@@ -1,0 +1,3 @@
+Start randommaths
+Create Variable "Input1"
+Create Variable "Input2"
