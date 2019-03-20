@@ -1,0 +1,22 @@
+Start Fibonacci
+
+Create Variable "Count"
+    Set as 2
+Create Variable "PastNumber"
+    Set as 0
+Create Variable "CurrentNumber"
+    Set as 1
+Create Variable "NextNumber"
+
+Print "PastNumber"
+Print "CurrentNumber"
+
+check if "Count" > 16
+    if false set Variable "NextNumber" to "PastNumber" plus "CurrentNumber"
+        Print "NextNumber"
+        Add 1 to "Count"
+        Set "PastNumber" to "CurrentNumber" Value
+        Set "CurrentNumber" to "NextNumber" Value
+        Go back to line 14
+    if true 
+        Stop program

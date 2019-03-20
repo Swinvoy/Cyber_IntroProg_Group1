@@ -1,3 +1,28 @@
 Start randommaths
 Create Variable "Input1"
 Create Variable "Input2"
+Create Variable "Sum"
+
+Request "Input1" & "Input2"
+
+Multiply "Input1" by "Input2"
+    Save answer as "Multiplied"
+
+Add "Input1" by "Input2"
+    Save answer as "Add"
+
+Subtract "Input1" by "Input2"
+    Save answer as "Subtract"
+
+Divide "Input1" by "Input2"
+    Save answer as "Divided"
+    Perform Modulo on "Input1" by "Input2" 
+    Save answer as "Remainder?"
+
+Add "Multiplied", "Add", "Subtract" & "Divided"
+    Adjust Variable "Sum" to answer
+
+Display "Sum"
+    Check if "Remainder?" = 0
+        if true Display 'There is no remainder'
+        if false Display 'There is a remainder: <show "remainder?" here>'
