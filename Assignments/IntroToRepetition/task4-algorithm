@@ -1,0 +1,12 @@
+Create variable rightorwrong
+    Make it false
+
+While rightorwrong is flase
+    Ask the user "What happens when you throw a yellow rock in the red sea?"
+    
+    if the user says "It gets wet"
+        set answer to True
+        Say "You got it!"
+    
+    otherwise
+        print "Try again"

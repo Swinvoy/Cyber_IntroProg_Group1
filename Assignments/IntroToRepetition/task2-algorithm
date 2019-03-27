@@ -1,0 +1,8 @@
+Create Variable "Count" 
+    Make it equal Zero
+
+while count <= 40
+    print count
+    add 2 to count
+
+Renturn to line 4 until condition is untrue

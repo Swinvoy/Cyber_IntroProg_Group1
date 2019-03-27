@@ -1,0 +1,10 @@
+Ask User what number they want to sum all numbers too
+
+Created Variable count
+
+for the value 'x' in range 0 to the number the user asked + !
+    Add x to the vairable count
+
+Stop adding x when it equals the range
+
+print the variable count to show the sum

@@ -1,0 +1,8 @@
+Create Variable "Count" 
+    Make it equal Zero
+
+while count < 26
+    print count
+    add 1 to count
+
+Renturn to line 4 until condition is untrue
