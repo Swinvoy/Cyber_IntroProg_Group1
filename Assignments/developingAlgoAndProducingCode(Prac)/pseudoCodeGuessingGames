@@ -1,0 +1,33 @@
+Show "Hey There! Lets play a little guessing game!"
+Show "Guess the number between 0 and 25"
+
+Ask user for how many guesses they want
+    Store value as maxGuesses
+    Also store it as guessLeft
+
+Program finds a random value between 0 and 25
+    Stores it as guessMe
+
+Run a while loop for value maxGuesses
+    Ask user for their guess 
+    store it as an interger labeled userGuess
+    add it to a list called allGuesses
+
+    if userGuess = guessMe
+        Print "Damn you win!
+        Print "The number was indeed " show userGuess
+        Print "You guessed it in " show len of allGuesses "guesses!"
+        Print "Your guess log: "
+        Print allGuesses
+        break out of the loop
+
+    else
+    Take away one from "guessLeft"
+    if userGuess < guessMe
+        print "Nope, its greater than that!"
+        Print "You have " guessLeft "guesses left!"
+    else
+        print "Nope, its less than that!"
+        Print "You have " guessLeft "guesses left!"
+
+Print Thanks for playing!
